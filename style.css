@@ -1,0 +1,21 @@
+:root {
+    --green: #00FF00
+}
+
+body {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: var(--green);
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 24pt;
+}
+
+button:hover {
+    background-color: var(--green);
+    border: 2px solid white;
+    color: black;
+}
